@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin_5dp">5dp</dimen>
+    <dimen name="text_margin_24dp">24dp</dimen>
+    <dimen name="margin_start_16">16dp</dimen>
+    <dimen name="margin_55">55dp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="line_chart_height">200dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+</resources>
