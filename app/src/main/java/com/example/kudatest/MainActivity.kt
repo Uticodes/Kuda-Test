@@ -138,7 +138,7 @@ class MainActivity : AppCompatActivity(), OnChartValueSelectedListener {
         yAxis.setDrawLimitLinesBehindData(true)
         // xAxis.setDrawLimitLinesBehindData(true)
         // draw points over time
-        binding.chart.animateX(2000, Easing.EaseInCubic)
+        binding.chart.animateXY(3000, 3000)
 
         setData()
 
@@ -173,7 +173,7 @@ class MainActivity : AppCompatActivity(), OnChartValueSelectedListener {
                 )
             )
         )
-        for (label in dummyChartData) {
+        for (label in dummyChartData ) {
             labelArray.add(label.time)
         }
         xAxis.valueFormatter = MyXAxisFormatter(labelArray)
