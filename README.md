@@ -11,8 +11,8 @@ This repo is for the Kuda Android coding test for Android role :)
 ## Languages, libraries and tools used
 
 * [Kotlin](https://kotlinlang.org/)
-* [MPAndroidChart] (https://github.com/PhilJay/MPAndroidChart)
-* [ViewBinding] (https://developer.android.com/topic/libraries/view-binding)
+* [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
+* [ViewBinding](https://developer.android.com/topic/libraries/view-binding)
 
 
 ## :camera_flash: Screenshots / GIFs
