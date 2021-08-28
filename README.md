@@ -8,6 +8,13 @@ This repo is for the Kuda Android coding test for Android role :)
 * 4. Click on the green Play button to Run the project on your device
 * 5. You can also download the apk from the ```apk``` folder and install on a device
 
+## Languages, libraries and tools used
+
+* [Kotlin](https://kotlinlang.org/)
+* [MPAndroidChart] (https://github.com/PhilJay/MPAndroidChart)
+* [ViewBinding] (https://developer.android.com/topic/libraries/view-binding)
+
+
 ## :camera_flash: Screenshots / GIFs
 
 https://user-images.githubusercontent.com/43546652/131223765-fc97319d-d181-4670-8b4b-4503cea51b4c.mp4
