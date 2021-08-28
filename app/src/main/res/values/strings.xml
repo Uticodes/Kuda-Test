@@ -3,4 +3,10 @@
     <string name="analytics">Analytics</string>
     <string name="july_2021">July 2021</string>
     <string name="aug_2021">Aug 2021</string>
+    <string name="money_in">Money In</string>
+    <string name="money_out">Money Out</string>
+    <string name="_100_00">₦100.00</string>
+    <string name="aug_5_2021">Aug 5, 2021</string>
+    <string name="aug_23_2021">Aug 23, 2021</string>
+    <string name="aug_24_2021">Aug 24, 2021</string>
 </resources>

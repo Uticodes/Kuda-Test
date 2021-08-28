@@ -26,6 +26,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:textColor="@color/black"
+                android:textStyle="bold"
                 android:textSize="24sp"
                 android:layout_marginEnd="@dimen/text_margin_24dp"
                 android:text="@string/analytics"/>
@@ -51,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/margin_start_16"
                 android:textSize="18sp"
-                android:textColor="@color/black"
+                android:textColor="@color/grey"
                 android:text="@string/july_2021"/>
 
             <TextView
@@ -60,19 +61,23 @@
                 android:layout_marginStart="65dp"
                 android:gravity="center"
                 android:textSize="@dimen/text_size_18"
-                android:textColor="@color/black"
+                android:textColor="@color/grey"
                 android:text="@string/aug_2021"/>
 
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="wrap_content"
+            android:id="@+id/transRv"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_30"
-            android:layout_marginStart="10dp"
-            app:layout_constraintEnd_toStartOf="@+id/chart"
+            android:layout_marginStart="@dimen/margin_start_16"
+            android:layout_marginEnd="@dimen/margin_start_16"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/months" />
+            app:layout_constraintTop_toBottomOf="@+id/chart"
+            android:elevation="1dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
         <com.github.mikephil.charting.charts.LineChart
             android:id="@+id/chart"
