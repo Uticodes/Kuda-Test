@@ -24,4 +24,4 @@ https://user-images.githubusercontent.com/43546652/131223765-fc97319d-d181-4670-
 
 ## Conclusion
 
- ```I will be glad to answer any questions and also accept pull request if you find any issue.```
+ ```I will be glad to answer any questions and also accept pull request too.```
